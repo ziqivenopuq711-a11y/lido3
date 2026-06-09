@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lido House Pizza & Gelato — Pizzas napolitaines au feu de bois et gelato artisanal aux saveurs de la Provence. Ouvert à toute heure au bord de la plage de Hyères.">
+  <meta name="keywords" content="pizza Hyères, gelato artisanal Var, pizzeria bord de mer, pizza feu de bois Hyères, glace artisanale Côte d'Azur">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Pizza & Gelato — Lido House Hyères">
+  <meta property="og:description" content="Pizzas napolitaines au feu de bois et gelato artisanal provençal, face à la mer à Hyères.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pizza & Gelato — Lido House Hyères">
+  <meta name="twitter:description" content="Pizzas napolitaines et gelato artisanal au bord de la plage de Hyères, Var.">
+  <title>Pizza & Gelato — Lido House</title>
+  <link rel="canonical" href="pizza-gelato.html">
+  <link rel="stylesheet" href="lido-style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo" aria-label="Lido House — Accueil">
+          🌊 Lido <span>House</span>
+        </a>
+        <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true'); document.querySelector('.site-nav').classList.toggle('open')">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" role="navigation" aria-label="Navigation principale">
+          <ul class="nav-list">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="gastronomie.html">Gastronomie</a></li>
+            <li><a href="pizza-gelato.html" class="active">Pizza & Gelato</a></li>
+            <li><a href="beach.html">Beach</a></li>
+            <li><a href="index.html#contact" class="nav-cta">Réserver</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+
+    <!-- ===== SECTION 1 — PAGE HERO ===== -->
+    <section class="page-hero" aria-label="En-tête de page">
+      <div class="container">
+        <span class="section-label" style="color: var(--color-gold);">Saveurs du soleil</span>
+        <h1>Pizza & Gelato</h1>
+        <div class="divider divider--center divider--gold" style="margin:1rem auto 1.2rem;"></div>
+        <p>La convivialité italienne rencontre la générosité provençale face aux flots turquoise de la baie de Hyères.</p>
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <a href="index.html">Accueil</a>
+          <span aria-hidden="true">›</span>
+          <span aria-current="page">Pizza & Gelato</span>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 2 — PIZZA ===== -->
+    <section class="section" id="pizza" aria-labelledby="pizza-title">
+      <div class="container">
+        <div class="grid-2">
+          <div style="display:flex; align-items:center; justify-content:center; background: linear-gradient(135deg, var(--color-coral) 0%, var(--color-gold) 100%); border-radius:8px; min-height:360px; font-size:8rem;">🍕</div>
+          <div>
+            <span class="section-label">L'art de la pizza</span>
+            <h2 id="pizza-title" class="section-title">Napolitaine au feu de bois</h2>
+            <div class="divider"></div>
+            <p>Au Lido House, la pizza est une célébration. Notre four à bois, chauffé à plus de 450 °C, donne naissance à des pizzas à la pâte légère, alvéolée et légèrement brûlée aux bords — le fameux <em>cornicione</em> napolitain. Chaque pâton repose vingt-quatre heures avant d'être étalé à la main, puis garni d'ingrédients soigneusement sélectionnés : tomates San Marzano, mozzarella fior di latte, basilic frais du jardin, huile d'olive de la région.</p>
+            <p>La carte propose des classiques indémodables — Margherita, Quattro Formaggi, Burrata & roquette — et des créations saisonnières inspirées du terroir provençal, comme la Pizza Lavande-Chèvre ou la Tapenade & Légumes du soleil. Une invitation à voyager avec les papilles tout en restant les yeux rivés sur la mer.</p>
+            <div class="feature-item">
+              <div class="feature-icon">🔥</div>
+              <div class="feature-text">
+                <h4>Four à bois traditionnel</h4>
+                <p>Cuisson ultra-rapide à 450 °C pour une pâte parfaitement soufflée.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🌿</div>
+              <div class="feature-text">
+                <h4>Ingrédients locaux & importés</h4>
+                <p>Tomates San Marzano DOP, mozzarella fraîche et herbes de Provence.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🧑‍🍳</div>
+              <div class="feature-text">
+                <h4>Créations saisonnières</h4>
+                <p>La carte évolue au rythme des récoltes et de la créativité de notre pizzaiolo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 3 — MENU PIZZAS ===== -->
+    <section class="section section--dark" id="menu-pizza" aria-labelledby="menu-pizza-title">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 2.5rem;">
+          <span class="section-label">Notre sélection</span>
+          <h2 id="menu-pizza-title" class="section-title">La carte des pizzas</h2>
+          <div class="divider divider--center divider--gold"></div>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div>
+              <div class="menu-item-name">Margherita Classica</div>
+              <div class="menu-item-desc">Tomate San Marzano, fior di latte, basilic, huile d'olive</div>
+            </div>
+            <div class="menu-item-price">13 €</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="menu-item-name">Burrata & Roquette</div>
+              <div class="menu-item-desc">Base blanche, burrata fraîche, roquette sauvage, citron</div>
+            </div>
+            <div class="menu-item-price">17 €</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="menu-item-name">Quattro Formaggi</div>
+              <div class="menu-item-desc">Mozzarella, gorgonzola, chèvre, parmesan 24 mois</div>
+            </div>
+            <div class="menu-item-price">15 €</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="menu-item-name">Truffe Noire</div>
+              <div class="menu-item-desc">Crème de truffe, mozzarella, champignons, huile de truffe</div>
+            </div>
+            <div class="menu-item-price">22 €</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="menu-item-name">Tapenade Provençale</div>
+              <div class="menu-item-desc">Tapenade noire, poivrons confits, courgettes, féta, olives</div>
+            </div>
+            <div class="menu-item-price">14 €</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="menu-item-name">Chèvre & Lavande</div>
+              <div class="menu-item-desc">Base huile d'olive, chèvre frais, miel de lavande, thym</div>
+            </div>
+            <div class="menu-item-price">15 €</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="menu-item-name">Poulpe Grillé</div>
+              <div class="menu-item-desc">Base tomate, poulpe mariné, câpres, citron confit, persil</div>
+            </div>
+            <div class="menu-item-price">18 €</div>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="menu-item-name">Calzone Ricotta</div>
+              <div class="menu-item-desc">Ricotta, épinards, jambon cru, tomate, mozzarella</div>
+            </div>
+            <div class="menu-item-price">16 €</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 4 — GELATO ===== -->
+    <section class="section section--sand" id="gelato" aria-labelledby="gelato-title">
+      <div class="container">
+        <div class="grid-2">
+          <div>
+            <span class="section-label">Douceur artisanale</span>
+            <h2 id="gelato-title" class="section-title">Gelato maison aux saveurs de Provence</h2>
+            <div class="divider"></div>
+            <p>Le gelato du Lido House est préparé chaque matin par notre glacière dans le respect de la tradition italienne : moins d'air que la glace industrielle, plus de matières premières, une texture crémeuse et dense qui fond lentement en bouche. Nous travaillons exclusivement avec des fruits de saison cueillis dans la région — fraises de Hyères, abricots de la Durance, figues de nos jardins — pour des parfums d'une fraîcheur incomparable.</p>
+            <p>La vitrine propose en permanence une douzaine de parfums, dont une sélection vegan à base de lait d'amande et de noix de coco. Le sorbet citron-basilic et le gelato pistache de Sicile sont nos incontournables. Pour les plus gourmands, la <em>coppa</em> combinée permet de goûter trois parfums accompagnés d'un canestrelli craquant.</p>
+            <div class="feature-item">
+              <div class="feature-icon">🍓</div>
+              <div class="feature-text">
+                <h4>Fruits locaux de saison</h4>
+                <p>Fraises, abricots, figues et cerises de la région pour un gelato vivant.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🌱</div>
+              <div class="feature-text">
+                <h4>Options vegan disponibles</h4>
+                <p>Recettes au lait végétal pour ravir tous les palais.</p>
+              </div>
+            </div>
+          </div>
+          <div style="display:flex; align-items:center; justify-content:center; background: linear-gradient(135deg, #fde8d8 0%, #ffd6a5 100%); border-radius:8px; min-height:360px; font-size:8rem;">🍦</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 5 — PARFUMS & HORAIRES ===== -->
+    <section class="section" aria-labelledby="parfums-title">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 2.5rem;">
+          <span class="section-label">Nos spécialités</span>
+          <h2 id="parfums-title" class="section-title">Parfums du moment</h2>
+          <div class="divider divider--center"></div>
+          <p class="section-intro section-intro--center">Renouvelés chaque semaine selon les arrivages et l'inspiration de notre glacière.</p>
+        </div>
+        <div class="grid-4" style="margin-bottom:3rem;">
+          <div class="card" style="text-align:center; padding:1.5rem;">
+            <div style="font-size:2.5rem; margin-bottom:.75rem;">🍋</div>
+            <h3 style="font-size:1rem;">Citron-Basilic</h3>
+            <p style="font-size:.85rem; color: var(--color-muted);">Sorbet rafraîchissant aux agrumes et herbes fraîches</p>
+          </div>
+          <div class="card" style="text-align:center; padding:1.5rem;">
+            <div style="font-size:2.5rem; margin-bottom:.75rem;">🫐</div>
+            <h3 style="font-size:1rem;">Figue & Miel</h3>
+            <p style="font-size:.85rem; color: var(--color-muted);">Gelato onctueux aux figues de Provence et miel de lavande</p>
+          </div>
+          <div class="card" style="text-align:center; padding:1.5rem;">
+            <div style="font-size:2.5rem; margin-bottom:.75rem;">🟢</div>
+            <h3 style="font-size:1rem;">Pistache de Sicile</h3>
+            <p style="font-size:.85rem; color: var(--color-muted);">Gelato intense à la pistache IGP de Bronte, Sicile</p>
+          </div>
+          <div class="card" style="text-align:center; padding:1.5rem;">
+            <div style="font-size:2.5rem; margin-bottom:.75rem;">🍫</div>
+            <h3 style="font-size:1rem;">Chocolat Noir 70 %</h3>
+            <p style="font-size:.85rem; color: var(--color-muted);">Cacao grand cru d'Équateur, intensité et rondeur</p>
+          </div>
+        </div>
+
+        <div class="grid-2" style="background: var(--color-sand); border-radius: 8px; padding: 2.5rem; gap: 2rem;">
+          <div>
+            <h3>Horaires d'ouverture</h3>
+            <div class="divider"></div>
+            <table style="width:100%; border-collapse:collapse; font-size:.95rem;">
+              <tbody>
+                <tr style="border-bottom:1px solid rgba(0,0,0,.08);">
+                  <td style="padding:.6rem 0; font-weight:700;">Lundi – Vendredi</td>
+                  <td style="text-align:right;">12h – 22h30</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(0,0,0,.08);">
+                  <td style="padding:.6rem 0; font-weight:700;">Samedi</td>
+                  <td style="text-align:right;">11h – 23h</td>
+                </tr>
+                <tr>
+                  <td style="padding:.6rem 0; font-weight:700;">Dimanche</td>
+                  <td style="text-align:right;">11h – 22h</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h3>À emporter & livraison</h3>
+            <div class="divider"></div>
+            <p>Nos pizzas sont disponibles à emporter en 15 minutes. Le gelato se vend en pot (250 g, 500 g ou 1 kg) pour régaler toute la famille à la maison. Livraison sur Hyères et les communes limitrophes sur commande préalable.</p>
+            <a href="index.html#contact" class="btn btn-primary" style="margin-top:.5rem;">Commander</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">🌊 Lido <span>House</span></a>
+          <p>Hôtel boutique & restaurant gastronomique sur la plage de l'Almanarre à Hyères, Var. Un art de vivre méditerranéen sincère et responsable.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="gastronomie.html">Gastronomie</a></li>
+            <li><a href="pizza-gelato.html">Pizza & Gelato</a></li>
+            <li><a href="beach.html">Beach</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Séjours</h4>
+          <ul>
+            <li><a href="index.html#contact">Réserver une chambre</a></li>
+            <li><a href="index.html#contact">Événements privés</a></li>
+            <li><a href="index.html#contact">Séminaires</a></li>
+            <li><a href="index.html#contact">Mariages</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <address>
+            Plage de l'Almanarre<br>
+            83400 Hyères, Var<br><br>
+            +33 (0)4 94 00 00 00<br>
+            contact@lido-house.fr
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Lido House — Tous droits réservés</span>
+        <span>Ouvert de mi-mars à fin octobre · <a href="index.html#contact">Mentions légales</a></span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
